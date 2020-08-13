@@ -15,7 +15,7 @@ spec:
         component: events
     spec:
       containers:
-      - name: nginx
-        image: gcr.io/gcp-designers-development/events-service:v0.1
+      - name: events
+        image: gcr.io/roi-training-treder-gke/events-service
         ports:
-        - containerPort: 3000
+        - containerPort: 3001

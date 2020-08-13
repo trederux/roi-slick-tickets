@@ -15,7 +15,7 @@ spec:
         component: web-app
     spec:
       containers:
-      - name: nginx
-        image: gcr.io/gcp-designers-development/web-app:v0.2
+      - name: web-app
+        image: gcr.io/roi-training-treder-gke/web-app:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 80

@@ -15,7 +15,7 @@ spec:
         component: users
     spec:
       containers:
-      - name: nginx
-        image: gcr.io/gcp-designers-development/users-service:v0.1
+      - name: users
+        image: gcr.io/roi-training-treder-gke/users-service
         ports:
-        - containerPort: 3000
+        - containerPort: 3002
